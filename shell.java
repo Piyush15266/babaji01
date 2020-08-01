@@ -2,6 +2,7 @@ public class shell {
     //this is shell sort.
     public static void main(String[] args)
     {
+Scanner in =new Scanner(System.in);
     int arr[]={20,35,-15,7,55,1,-22};
     for(int gap=arr.length/3;gap>0;gap/=2)
     {
