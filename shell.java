@@ -1,5 +1,5 @@
 public class shell {
-    //this is shell sort.
+    //this is shell sort it's a sorting technique.
     public static void main(String[] args)
     {
 Scanner in =new Scanner(System.in);
