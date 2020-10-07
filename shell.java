@@ -1,9 +1,13 @@
+import java.util.*;
 public class shell {
     //this is shell sort it's a sorting technique.
     public static void main(String[] args)
     {
 Scanner in =new Scanner(System.in);
-    int arr[]={20,35,-15,7,55,1,-22};
+    int size=in.nextInt();
+    int arr[]=new int[n];
+    for(int i:arr)
+        i=in.nextInt();
     for(int gap=arr.length/3;gap>0;gap/=2)
     {
         for(int unsorted=gap;unsorted<arr.length;unsorted++)
